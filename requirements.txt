@@ -1,5 +1,0 @@
-rasa==1.8.0
-rasa-nlu[tensorflow]
-spacy
-sklearn-crfsuite
-rasa-core-sdk
