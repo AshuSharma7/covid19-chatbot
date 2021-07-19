@@ -1,4 +1,4 @@
-rasa[full]
+rasa==1.7.0
 rasa-nlu[tensorflow]
 spacy
 sklearn-crfsuite
