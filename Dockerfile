@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 MAINTAINER Samik Saha
-
+RUN sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+RUN python3 get-pip.py
 RUN apt-get update && apt-get install -y python3 python3-pip
 RUN python3 -m pip install --upgrade pip
 RUN pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
