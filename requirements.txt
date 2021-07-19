@@ -1,4 +1,4 @@
-rasa-core
+rasa[full]
 rasa-nlu[tensorflow]
 spacy
 sklearn-crfsuite
